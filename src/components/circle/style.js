@@ -1,11 +1,12 @@
 import styled from "styled-components";
 
 export const A = styled.div`
-    margin: 30px;
+    margin: 30px 30px 30px 80px;
+    display: flex;
+    flex-direction: column;
 `;
 
-export const Titile = styled.div`
-    width: 100%;
+export const Titile = styled.h1`
     text-align: center;
 `;
 

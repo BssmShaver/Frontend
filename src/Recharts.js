@@ -27,17 +27,6 @@ const data = [
     pv: 4800,
     amt: 2181,
   },
-  {
-    name: 'Page F',
-    pv: 3800,
-    amt: 2500,
-  },
-  {
-    name: 'Page G',
-    uv: 3490,
-    pv: 4300,
-    amt: 2100,
-  },
 ];
 
 const CustomizedDot = (props) => {
@@ -64,13 +53,13 @@ export default class Example extends PureComponent {
   render() {
     return (
         <LineChart
-          width={800}
+          width={1100}
           height={300}
           data={data}
           margin={{
             top: 5,
-            right: 30,
-            left: 20,
+            right: 80,
+            left: 50,
             bottom: 5,
           }}
         >

@@ -47,7 +47,6 @@ div{
   flex-direction: column;
 }
 
-.b{
-  display: flex;
-  flex-direction: column;
+.CircularProgressbar-text{
+  fill: #548361 !important;
 }
