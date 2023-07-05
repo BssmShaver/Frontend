@@ -62,9 +62,8 @@ export default class Example extends PureComponent {
 
   render() {
     return (
-      <ResponsiveContainer width="100%" height="100%">
         <LineChart
-          width={500}
+          width={800}
           height={300}
           data={data}
           margin={{
@@ -81,7 +80,6 @@ export default class Example extends PureComponent {
           <Legend />
           <Line type="monotone" dataKey="pv" stroke="#82ca9d" strokeWidth={2}/>
         </LineChart>
-      </ResponsiveContainer>
     );
   }
 }
